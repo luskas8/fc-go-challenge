@@ -2,6 +2,6 @@ FROM scratch
 
 WORKDIR /app
 
-COPY ./main /app
+COPY ./main .
 
 ENTRYPOINT ["/app/main"]
